@@ -6,7 +6,9 @@
 
 # Cvars:
 • sm_nospread_prefix - Chat prefix for the NoSpread Timer (Default: [NoSpread])
+
 • sm_nospread_ttns - Time for enabling nospread. (Default: 60.0)
+
 • sm_nospread_enabled - Enable or Disable all features of the plugin. (0 = Disabled | 1 = Enabled)
 
 • Thanks to Bar (xoxo ^^) for helping me write the code
