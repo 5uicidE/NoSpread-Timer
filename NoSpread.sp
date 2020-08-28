@@ -5,7 +5,7 @@
 #define PLUGIN_AUTHOR "KilleR_gamea / xoxo^^"
 #define PLUGIN_VERSION "2.2"
 
-Handle g_hNoSpreadTimer = INVALID_HANDLE;
+Handle g_hNoSpreadTimer;
 
 ConVar cPrefix;
 ConVar g_cPluginEnabled;
@@ -74,6 +74,7 @@ public Action Timer_NoSpread(Handle timer){
 			ShowHudText(i, 5, "NoSpread Enabled!");
 		}
 	}
+	g_hNoSpreadTimer = null;
 }
 
 public void Event_RoundEnd(Event event, const char[] name, bool dontBroadcast){
